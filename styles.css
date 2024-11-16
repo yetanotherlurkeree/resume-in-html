@@ -1,0 +1,126 @@
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Adjust the radius as needed */
+}
+
+h3 {
+    padding-bottom: 1px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%; /* Equal width columns */
+    /* Or grid-template-columns: 25% 75%; for unequal width */
+}
+
+.column {
+    padding: 10px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.contact{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+.education {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* I thought the colors would be nice, but maybe these colors are not so good
+  background-color: azure;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-color: grey;
+  border-radius: 10px;
+  */
+}
+.education:first-child{
+    margin-top: 0;
+}
+
+.education-details {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* This aligns items to start and end */
+}
+
+.work-experience {
+    display: flex;
+    flex-direction: column; /* Keep the overall structure vertical */
+    margin-left: 20px;
+  }
+
+.work-header {
+    display: flex;
+    justify-content: space-between; /* This aligns items to start and end */
+    align-items: center;
+}
+
+.work-details {
+    margin-left: 20px; /* Adjust as needed */
+}
+  
+.education-period {
+    margin-bottom: 5px; /* Add spacing between period and company */
+    font-style: italic;
+}
+
+.work-period {
+    margin-bottom: 5px; /* Add spacing between period and company */
+    font-style: italic;
+}
+
+.company{
+    font-weight: bold;
+}
+
+
+/* For the images */
+.logo {
+    height: 20px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+.profile{
+    height: auto;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+/* Languages section */
+.languages{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.language-level{
+    display: flex;
+    justify-content: space-between; /* This aligns items to start and end */
+    align-items: center;
+}
+.level{
+    font-style: italic;
+}
+
+/* Skills section */
+.skills{
+    text-align: center;
+}
